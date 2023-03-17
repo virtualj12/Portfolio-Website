@@ -245,7 +245,7 @@ body {
   font-family: 'Kanit';
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 3vh;
+    margin-bottom: 0vh;
     color: #f8f9f9;
     text-align: center;
 }
@@ -265,7 +265,7 @@ body {
   font-size: 1.3rem;
   line-height: 2rem;
   text-align: justify;
-  padding: 7vh 10%;
+  padding: 2vh 10%;
   margin-bottom: 0;
   color: #f8f9f9;
   font-style: italic;
@@ -309,7 +309,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-  margin: 0px auto 0px
+  margin: 0px auto 0px;
   max-width: 100vw;
   background-color: #141819;
   color: white;
@@ -865,10 +865,11 @@ footer {
   align-items: center;
   justify-content: space-between;
   font-family: 'Kanit';
+  padding-top: 5px;
 }
 
 footer img {
-  max-width: 150px;
+  max-width: 70px;
 }
 
 .social-icons {
